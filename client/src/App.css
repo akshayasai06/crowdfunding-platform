@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.navbar {
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #141e30, #243b55, #1d2671, #c33764);
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+   justify-content: center; 
+}
+
+.card {
+   background: white;       
+  color: black;            
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  width: 50%;
+}
+
+.card:hover {
+   transform: translateY(-6px);
+}
+
+.btn {
+  background: #667eea;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #5a67d8;
+}
+
+.progress {
+  background: rgba(255,255,255,0.2);
+  height: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.progress-fill {
+  background: #4caf50;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.center-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.85)),
+              url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f");
+  background-size: cover;
+  background-position: center;
+}
+
+.login-card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(12px);
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  color: white;
+}
+
+.donate-card {
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+}
+
+.input {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 8px;
+   border: 1px solid #ccc;
+  font-size: 16px; 
+  color: black;            
+  background: white;   
+}
